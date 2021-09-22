@@ -24,7 +24,8 @@ A machine learning model, like a piece of clay, can be molded into many differen
 
 > A model is an extremely generic program(or block of code), made specific by the data used to train it. It is used to solve different problems.
 
-## Have to complete Machine Learning Models
+All machine learning models are categorized  as either **supervised** or **unsupervised**. If the model is a supervised model, it’s then sub-categorized as either a **regression** or **classification** model <br>
+[All Machine Learning Models](https://towardsdatascience.com/all-machine-learning-models-explained-in-6-minutes-9fe30ff6776a)
 
 ## Model Training 
 ### How are model training algorithms used to train a model?
