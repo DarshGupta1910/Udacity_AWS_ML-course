@@ -6,9 +6,6 @@
 -   **Deep neural network**
     -   While this type of task is beyond the scope of this lesson, we wanted to show you the power and versatility of modern machine learning. You will see how it can be used to analyze raw images from lab video footage from security cameras, trying to detect chemical spills.
 
-1. [Hpuse Price Detection Supervised](https://github.com/DarshGupta1910/Udacity_AWS_ML-course/new/main/Lesson%202%20%28What%20is%20Machine%20Learning%29#example-1-house-price-prediction)
-2. [Book Genre exploration Unsupervised](https://github.com/DarshGupta1910/Udacity_AWS_ML-course/new/main/Lesson%202%20%28What%20is%20Machine%20Learning%29#example-2---book-genre-exploration)
-3. [Spill detection from video Neural Network](https://github.com/DarshGupta1910/Udacity_AWS_ML-course/new/main/Lesson%202%20%28What%20is%20Machine%20Learning%29#example-3---spill-detection-from-video)
 
 # Example 1: House Price Prediction
 [House Price Prediction blog](https://towardsdatascience.com/predicting-house-prices-with-machine-learning-62d5bcd0d68f)
