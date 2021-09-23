@@ -187,10 +187,6 @@ _Pragmatic problem solving with machine learning is rarely an exact science, and
 
 ----------
 
-# Extended Learning
-
-This information hasn't been covered in the above video but is provided for the advanced reader.
-
 ### Linear models
 
 One of the most common models covered in introductory coursework, linear models simply describe the relationship between a set of input numbers and a set of output numbers through a linear function (think of  _y = mx + b_  or a line on a  _x_ vs y  chart).
