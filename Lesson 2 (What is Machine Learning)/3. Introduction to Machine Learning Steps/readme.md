@@ -267,3 +267,10 @@ The tools used for model evaluation are often tailored to a specific use case, s
 1.  [This healthcare-based example](https://aws.amazon.com/blogs/machine-learning/create-a-model-for-predicting-orthopedic-pathology-using-amazon-sagemaker/), which automates the prediction of spinal pathology conditions, demonstrates how important it is to avoid false positive and false negative predictions using the tree-based  `xgboost`  model.
 2.  The popular  [open-source library  `sklearn`](https://scikit-learn.org/stable/modules/model_evaluation.html)  provides information about common metrics and how to use them.
 3.  [This entry from the AWS Machine Learning blog](https://aws.amazon.com/blogs/machine-learning/making-accurate-energy-consumption-predictions-with-amazon-forecast/)  demonstrates the importance of choosing the correct model evaluation metrics for making accurate energy consumption estimates using Amazon Forecast.
+
+# Step 5 : Model Inference 
+Congratulations! You're ready to deploy your model.
+
+Once you have trained your model, have evaluated its effectiveness, and are satisfied with the results, you're ready to generate predictions on real-world problems using unseen data in the field. In machine learning, this process is often called  **inference**.
+## Iterative Process
+Even after you deploy your model, you're always monitoring to make sure your model is producing the kinds of results that you expect. Tthere may be times where you reinvestigate the data, modify some of the parameters in your model training algorithm, or even change the model type used for training
