@@ -1,10 +1,10 @@
 ![steps in Machine Learning Process](https://i0.wp.com/techbusinessguide.com/wp-content/uploads/2019/05/machine-learning-steps-process-flow.jpg?resize=640,424&ssl=1)
 
- 1. Define the Problem 
- 2. Build the Dataset 
- 3. Train the model 
- 4. Evaluate the model 
- 5. Inference(Use the model)
+ Step 1. [Define the Model](https://github.com/DarshGupta1910/Udacity_AWS_ML-course/blob/main/Lesson%202%20%28What%20is%20Machine%20Learning%29/3.%20Introduction%20to%20Machine%20Learning%20Steps/readme.md#step-1---define-the-model)<br>
+ Step 2. [Build a Dataset](https://github.com/DarshGupta1910/Udacity_AWS_ML-course/blob/main/Lesson%202%20%28What%20is%20Machine%20Learning%29/3.%20Introduction%20to%20Machine%20Learning%20Steps/readme.md#step-2-build-a-dataset)<br>
+ Step 3. [Model Training](https://github.com/DarshGupta1910/Udacity_AWS_ML-course/blob/main/Lesson%202%20%28What%20is%20Machine%20Learning%29/3.%20Introduction%20to%20Machine%20Learning%20Steps/readme.md#step-3-model-training)<br>
+ Step 4. [Model Evaluation](https://github.com/DarshGupta1910/Udacity_AWS_ML-course/blob/main/Lesson%202%20%28What%20is%20Machine%20Learning%29/3.%20Introduction%20to%20Machine%20Learning%20Steps/readme.md#step-4---model-evaluation)<br>
+ Step 5. [Model Inference](https://github.com/DarshGupta1910/Udacity_AWS_ML-course/blob/main/Lesson%202%20%28What%20is%20Machine%20Learning%29/3.%20Introduction%20to%20Machine%20Learning%20Steps/readme.md#step-5--model-inference)<br>
 
 #  Step 1 - Define the Model
 ## How do You Start a Machine Learning Task?
