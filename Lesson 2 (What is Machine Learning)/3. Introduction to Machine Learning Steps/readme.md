@@ -233,3 +233,37 @@ A **loss function**  is used to codify the model’s distance from this goal
 
 -   The Wikipedia entry on the  [bias-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) trade-off can help you understand more about this common machine learning concept.
 -   In this  [AWS Machine Learning blog post](https://aws.amazon.com/blogs/machine-learning/build-a-model-to-predict-the-impact-of-weather-on-urban-air-quality-using-amazon-sagemaker/), you can see how to train a machine-learning algorithm to predict the impact of weather on air quality using Amazon SageMaker
+
+# Step 4 - Model evaluation
+After you have collected your data and trained a model, you can start to evaluate how well your model is performing. The metrics used for evaluation are likely to be very specific to the problem you have defined.  _As you grow in your understanding of machine learning, you will be able to explore a wide variety of metrics that can enable you to evaluate effectively._
+
+## Using Model Accuracy
+
+Model accuracy is a fairly common evaluation metric.  _Accuracy_  is the fraction of predictions a model gets right.
+Here's an example:
+Imagine that you built a model to identify a flower as one of two common species based on measurable details like petal length. You want to know how often your model predicts the correct species. This would require you to look at your model's accuracy.
+
+## Using Log Loss
+
+_Log los_s seeks to calculate how  _uncertain_  your model is about the predictions it is generating. In this context, uncertainty refers to how likely a model thinks the predictions being generated are to be correct.
+For example, let's say you're trying to predict how likely a customer is to buy either a jacket or t-shirt.
+
+Log loss could be used to understand your model's uncertainty about a given prediction. In a single instance, your model could predict with 5% certainty that a customer is going to buy a t-shirt. In another instance, your model could predict with 80% certainty that a customer is going to buy a t-shirt. Log loss enables you to measure how strongly the model believes that its prediction is accurate.
+
+In both cases, the model predicts that a customer will buy a t-shirt, but the model's certainty about that prediction can change.
+## Remember: This Process is Iterative
+Every step we have gone through is highly iterative and can be changed or re-scoped during the course of a project. At each step, you might find that you need to go back and reevaluate some assumptions you had in previous steps. Don't worry! This ambiguity is normal.
+
+## Terminology
+
+**Log loss**  seeks to calculate how  _uncertain_  your model is about the predictions it is generating.
+
+**Model Accuracy**  is the fraction of predictions a model gets right.
+
+## Additional reading
+
+The tools used for model evaluation are often tailored to a specific use case, so it's difficult to generalize rules for choosing them. The following articles provide use cases and examples of specific metrics in use.
+
+1.  [This healthcare-based example](https://aws.amazon.com/blogs/machine-learning/create-a-model-for-predicting-orthopedic-pathology-using-amazon-sagemaker/), which automates the prediction of spinal pathology conditions, demonstrates how important it is to avoid false positive and false negative predictions using the tree-based  `xgboost`  model.
+2.  The popular  [open-source library  `sklearn`](https://scikit-learn.org/stable/modules/model_evaluation.html)  provides information about common metrics and how to use them.
+3.  [This entry from the AWS Machine Learning blog](https://aws.amazon.com/blogs/machine-learning/making-accurate-energy-consumption-predictions-with-amazon-forecast/)  demonstrates the importance of choosing the correct model evaluation metrics for making accurate energy consumption estimates using Amazon Forecast.
